@@ -51,4 +51,7 @@ public class EmployeeInsurance {
         this.startDate = startDate;
         this.empId=empId;
     }
+
+    public EmployeeInsurance() {
+    }
 }

@@ -6,6 +6,7 @@ import java.util.Date;
 @Entity
 @Table(name="EMPLOYEE")
 
+
 public class Employee {
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
@@ -40,5 +41,8 @@ public class Employee {
 
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public Employee() {
     }
 }
