@@ -45,4 +45,10 @@ public class Employee {
 
     public Employee() {
     }
+
+    public Employee(long id, String name, Date dateOfBirth) {
+        this.id = id;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+    }
 }
